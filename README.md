@@ -12,8 +12,8 @@ The Webflow page holds one embed:
 
 ```html
 <div id="cpd-mount"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GFX-OS/colour-pickers-decoded@v1.0.0/dist/cpd.css">
-<script src="https://cdn.jsdelivr.net/gh/GFX-OS/colour-pickers-decoded@v1.0.0/dist/cpd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GFX-OS/colour-pickers-decoded@<commit>/dist/cpd.css">
+<script src="https://cdn.jsdelivr.net/gh/GFX-OS/colour-pickers-decoded@<commit>/dist/cpd.js"></script>
 ```
 
-Each release gets a new tag, and the embed points at that tag.
+Each release is pinned by its commit, so the live page only changes when the embed is pointed at a new commit.
